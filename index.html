@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/index.css" />
+    </head>
+    <body>
+        <div id="container">
+            <header class="header">
+                <img src="./images/logo.png" />
+                <input type="text" placeholder="Search or jump to..." />
+                <div class="nav">
+                    <ul>
+                        <li>Pull requests</li>
+                        <li>Issues</li>
+                        <li>Marketplace</li>
+                        <li>Explore</li>
+                    </ul>
+                </div>
+                <img src="./images/nav_icon.png" />
+            </header>
+            <section class="title--section">
+                <h2 class="title">Create a new repository</h2>
+                <p>
+                    A repository contains all project files, including the revision history. Already
+                    have a project repository elsewhere
+                </p>
+                <a href="#">Import a repository</a>
+            </section>
+            <section class="input--section">
+                <label for="owner">Owner</label>
+                <input type="text" id="owner" />
+                /
+                <label for="repository_name">Repository name</label>
+                <input type="text" id="repository_name" />
+                <p>
+                    Great repository names are short and memorable. Need inspiration? How about
+                    automatic-spoon?
+                </p>
+                <label for="description">Description</label>
+                <input type="text" id="description" />
+            </section>
+            <section class="check--section">
+                <form action="">
+                    <input type="radio" name="check_type" value="public" />
+                    <img src="./images/public_icon.png" alt="" />
+                    <span>Public</span>
+                    <p>Anyone on the internet can see this repositry. You choose who can commit.</p>
+
+                    <input type="radio" name="check_type" value="private" />
+                    <img src="./images/private_icon.png" alt="" />
+                    <span>Private</span>
+                    <p>You choose who can see and commit to this repository.</p>
+                </form>
+            </section>
+            <section class="setting--section">
+                <p>Initialize this repository with:</p>
+                <p>Skip this step if you're importing an existing repository.</p>
+                <input type="checkbox" />
+                <lable>Add a README file</lable>
+                <p>
+                    This is where you can write a long description for your project
+                    <a href="#">Learn more.</a>
+                </p>
+                <h3>Add .gitgnore</h3>
+                <p>
+                    Choose which files not to track from a list of templates.
+                    <a href="#">Learn more.</a>
+                </p>
+                <select name="" id="">
+                    <option selected>.gitgnore template: None</option>
+                </select>
+                <h3>Choose a license</h3>
+                <p>
+                    A license tells others what they can and can't do with your code.
+                    <a href="#">Learn more.</a>
+                </p>
+                <select name="" id="">
+                    <option selected>License:None</option>
+                </select>
+            </section>
+            <section class="description--section">
+                <div>!</div>
+                <p>You are creating a public repository in your personal account.</p>
+            </section>
+            <button class="create--button">Create repository</button>
+            <footer class="footer">
+                <img src="./images/footer_log.png" alt="" />
+                <ul>
+                    <li>Terms</li>
+                    <li>Privacy</li>
+                    <li>Security</li>
+                    <li>Status</li>
+                    <li>Docs</li>
+                    <li>Contact GitHub</li>
+                    <li>Pricing</li>
+                    <li>API</li>
+                    <li>Training</li>
+                    <li>Blog</li>
+                    <li>About</li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
