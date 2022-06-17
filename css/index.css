@@ -12,6 +12,7 @@
     flex-direction: column;
 }
 
+/* header */
 .header {
     width: 100%;
     height: var(--header-height);
@@ -79,6 +80,7 @@
     margin: 7px;
 }
 
+/* title--section */
 .title--section {
     width: var(--section-width);
     height: 100px;
@@ -102,4 +104,74 @@
 
 .title--section a {
     font-size: 12.5px;
+}
+
+/* input--section */
+.input--section {
+    width: var(--section-width);
+    height: 150px;
+
+    padding: 20px 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.input--section div {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+}
+
+.input--section div .owner--input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input--section div .owner--input label {
+    padding-bottom: 5px;
+}
+
+.input--section div .owner--input input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 130px;
+    height: 25px;
+
+    background-color: #e0e0e0;
+}
+
+.input--section div .repository_name--input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input--section div .repository_name--input label {
+    padding-bottom: 5px;
+}
+
+.input--section div .repository_name--input input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+
+    background-color: #e0e0e0;
+}
+
+.input--section div .label--divide {
+    position: relative;
+    top: 25px;
+    left: 8px;
+    font-size: 22px;
+
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.input--section p {
+    font-size: 12.5px;
+    padding-bottom: 5px;
 }

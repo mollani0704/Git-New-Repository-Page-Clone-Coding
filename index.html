@@ -35,17 +35,25 @@
                 <a href="#">Import a repository</a>
             </section>
             <section class="input--section">
-                <label for="owner">Owner</label>
-                <input type="text" id="owner" />
-                /
-                <label for="repository_name">Repository name</label>
-                <input type="text" id="repository_name" />
+                <div>
+                    <div class="owner--input">
+                        <label for="owner">Owner</label>
+                        <input type="text" id="owner" />
+                    </div>
+                    <div class="label--divide">/</div>
+                    <div class="repository_name--input">
+                        <label for="repository_name">Repository name</label>
+                        <input type="text" id="repository_name" />
+                    </div>
+                </div>
                 <p>
                     Great repository names are short and memorable. Need inspiration? How about
                     automatic-spoon?
                 </p>
-                <label for="description">Description</label>
-                <input type="text" id="description" />
+                <div class="input--description">
+                    <label for="description">Description<span>(optional)</span></label>
+                    <input type="text" id="description" />
+                </div>
             </section>
             <section class="check--section">
                 <form action="">
