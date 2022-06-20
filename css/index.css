@@ -107,14 +107,17 @@
 }
 
 /* input--section */
+
 .input--section {
     width: var(--section-width);
-    height: 150px;
+    height: 160px;
 
     padding: 20px 0;
 
     display: flex;
     flex-direction: column;
+
+    border-bottom: 1px solid grey;
 }
 
 .input--section div {
@@ -174,4 +177,64 @@
 .input--section p {
     font-size: 12.5px;
     padding-bottom: 5px;
+}
+
+.input--section .input--description {
+    display: flex;
+    flex-direction: column;
+}
+
+.input--section .input--description label {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.input--section .input--description label span {
+    font-size: 12px;
+}
+
+/* check--section */
+.check--section {
+    width: var(--section-width);
+    height: 110px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-bottom: 1px solid grey;
+}
+
+.check--section .public {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+.check--section .public .public--description span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.check--section .public .public--description p {
+    font-size: 11px;
+}
+
+.check--section .private {
+    display: flex;
+    align-items: center;
+}
+
+.check--section .private img {
+    margin: 0 4px;
+}
+
+.check--section .private .private--description span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.check--section .private .private--description p {
+    font-size: 11px;
 }
