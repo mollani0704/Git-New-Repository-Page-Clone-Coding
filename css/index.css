@@ -238,3 +238,51 @@
 .check--section .private .private--description p {
     font-size: 11px;
 }
+
+.setting--section {
+    width: var(--section-width);
+    height: 270px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-bottom: 1px solid grey;
+}
+
+.setting--section .checkbox {
+    margin-top: 10px;
+    display: flex;
+}
+
+.setting--section .checkbox input {
+    position: relative;
+    top: 3px;
+}
+
+.setting--section .checkbox .checkbox--description {
+    margin-left: 5px;
+}
+
+.setting--section .checkbox .checkbox--description label {
+    font-weight: 500;
+}
+
+.setting--section .checkbox .checkbox--description p,
+a {
+    font-size: 12px;
+}
+
+.setting--section h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.setting--section .select--box p {
+    font-size: 12px;
+}
+
+.setting--section .select--box select {
+    margin: 3px 0;
+}

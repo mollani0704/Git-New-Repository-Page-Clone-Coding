@@ -82,28 +82,34 @@
             <section class="setting--section">
                 <p>Initialize this repository with:</p>
                 <p>Skip this step if you're importing an existing repository.</p>
-                <input type="checkbox" />
-                <lable>Add a README file</lable>
-                <p>
-                    This is where you can write a long description for your project
-                    <a href="#">Learn more.</a>
-                </p>
+                <div class="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="checkbox--description">
+                        <label for="checkbox">Add a README file</label>
+                        <p>
+                            This is where you can write a long description for your project
+                            <a href="#">Learn more.</a>
+                        </p>
+                    </div>
+                </div>
                 <h3>Add .gitgnore</h3>
-                <p>
-                    Choose which files not to track from a list of templates.
-                    <a href="#">Learn more.</a>
-                </p>
-                <select name="" id="">
-                    <option selected>.gitgnore template: None</option>
-                </select>
-                <h3>Choose a license</h3>
-                <p>
-                    A license tells others what they can and can't do with your code.
-                    <a href="#">Learn more.</a>
-                </p>
-                <select name="" id="">
-                    <option selected>License:None</option>
-                </select>
+                <div class="select--box">
+                    <p>
+                        Choose which files not to track from a list of templates.
+                        <a href="#">Learn more.</a>
+                    </p>
+                    <select name="" id="">
+                        <option selected>.gitgnore template: None</option>
+                    </select>
+                    <h3>Choose a license</h3>
+                    <p>
+                        A license tells others what they can and can't do with your code.
+                        <a href="#">Learn more.</a>
+                    </p>
+                    <select name="" id="">
+                        <option selected>License:None</option>
+                    </select>
+                </div>
             </section>
             <section class="description--section">
                 <div>!</div>
