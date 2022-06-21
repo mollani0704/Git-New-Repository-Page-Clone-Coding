@@ -286,3 +286,39 @@ a {
 .setting--section .select--box select {
     margin: 3px 0;
 }
+
+.description--section {
+    width: var(--section-width);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+
+    border-bottom: 1px solid gray;
+}
+
+.description--section .mark {
+    text-align: center;
+    width: 14px;
+    height: 14px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 700;
+
+    margin-right: 10px;
+}
+
+.footer {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
